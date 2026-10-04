@@ -1,28 +1,49 @@
-# Makine Öğrenmesiyle Meme Kanseri Tespiti
+# Breast Cancer Classification – Machine Learning Learning Project
 
-Bu proje, **makine öğrenmesi** teknikleri kullanılarak meme kanserinin teşhis edilmesini amaçlar. Projede, veri seti üzerinde veri ön işleme, model eğitimi ve performans değerlendirmesi yapılmıştır. Meme kanserini erken teşhis etmek için kullanılabilecek sınıflandırma modelleri oluşturulmuştur.
+This repository contains a machine learning learning project focused on breast cancer classification using a publicly available dataset.
 
----
+The project was developed to practice data preprocessing, supervised machine learning, model comparison, and performance evaluation.
 
-## Proje Özeti
+## Project Objectives
 
-1. **Veri Analizi ve Hazırlık**:
-   - Eksik ve hatalı değerlerin temizlenmesi.
-   - Verilerin normalize edilmesi ve özellik seçimi.
-2. **Makine Öğrenmesi Modelleri**:
-   - **Lojistik Regresyon**
-   - **Destek Vektör Makineleri (SVM)**
-   - **Rastgele Orman (Random Forest)**
-3. **Model Performansının Değerlendirilmesi**:
-   - Doğruluk, hassasiyet, geri çağırma, F1 skoru.
-   - En iyi modeli belirlemek için karşılaştırmalı analiz.
+- Explore and prepare the dataset for machine learning analysis
+- Apply multiple supervised classification algorithms
+- Compare model performance using standard evaluation metrics
+- Practice an end-to-end machine learning workflow
 
----
+## Machine Learning Models
 
-## Kurulum ve Çalıştırma
+The project includes:
 
-### Gereksinimler
+- Logistic Regression
+- Support Vector Machine (SVM)
+- Random Forest
 
-Aşağıdaki Python kütüphanelerini yüklemeniz gerekmektedir:
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
+## Model Evaluation
+
+The models were evaluated using metrics including:
+
+- Accuracy
+- Precision
+- Recall
+- F1-score
+
+The goal was to compare classification performance and understand the strengths and limitations of different algorithms.
+
+## Tools & Technologies
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Jupyter Notebook
+
+## Repository Contents
+
+- `Breast_Cancer_Detection.ipynb` – Main notebook containing data preparation, model training, and evaluation
+
+## Project Context
+
+This project was completed as part of my ongoing development in data science and machine learning.
+
+My primary professional background is in clinical genomics, NGS data analysis, and germline/somatic variant interpretation. I use projects like this to strengthen my computational and data analysis skills and explore their application to biomedical data.
